@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: o;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Lobster", cursive;
+}
+body {
+  background-color: cornflowerblue;
+  color: antiquewhite;
+}
+header {
+  background-color: blue;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header figure {
+  display: flex;
+  height: 15vh;
+}
+div nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 85vh;
+}
+nav a {
+  height: 50px;
+  font-size: 20px;
+  margin-right: 10vh;
+  color: antiquewhite;
+}
+.Arvore {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  color: rgb(4, 4, 139);
+  justify-content: space-around;
+  align-items: center;
+}
+.Casa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  background-color: blue;
+}
+.Casa_com_neve {
+  display: flex;
+  height: 45vh;
+}
+.Ursos {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer figure {
+  display: flex;
+  height: 10vh;
+  flex-direction: row;
+  justify-content: space-around;
+}
